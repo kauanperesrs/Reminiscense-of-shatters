@@ -1,24 +1,27 @@
 <div align="center">
 
 
-<img width="537" height="672" alt="5  Ícone do jogo (Humanidade)" src="https://github.com/user-attachments/assets/9faf89b9-1e21-433a-b934-0f01001f9b5a" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/9c98fa81-50f6-4af1-a88e-52106a40bc4d" />
 
 
 
-#  Reminiscence of Shatters
 
-### Um metroidvania 2D em pixel art 
+# Reminiscence of Shatters
+
+### Um metroidvania 2D em pixel art sobre memória, identidade e outras realidades
 
 [![Unity](https://img.shields.io/badge/Engine-Unity-000000?style=flat-square&logo=unity)](https://unity.com/)
 [![C#](https://img.shields.io/badge/Language-C%23-239120?style=flat-square&logo=c-sharp)](https://learn.microsoft.com/dotnet/csharp/)
 [![Status](https://img.shields.io/badge/Status-Beta%2FConceito-yellow?style=flat-square)]()
 [![License](https://img.shields.io/badge/Tipo-Projeto%20Acadêmico%20(TCC)-blue?style=flat-square)]()
 
+[Baixar aqui](https://drive.google.com/file/d/1IorUxFrAol0wgrjf9IjSfOOSVjdyByIQ/view?usp=drive_link)
+
 </div>
 
 ---
 
-##  Sobre o projeto
+## 📖 Sobre o projeto
 
 **Reminiscence of Shatters** é um jogo digital 2D, em pixel art, do subgênero **metroidvania**, desenvolvido como Trabalho de Conclusão de Curso (TCC) do Ensino Médio com Habilitação Profissional em Programação de Jogos Digitais — ETEC Parque da Juventude (Centro Estadual de Educação Tecnológica Paula Souza), 2024.
 
@@ -34,7 +37,7 @@ O projeto nasceu da popularidade crescente dos jogos indie do subgênero metroid
 - Criar uma identidade visual própria em pixel art, com paleta de cores e estilo coerentes.
 - Implementar sistemas centrais do gênero: exploração não-linear, combate, progressão por atributos e mapa interativo.
 - Servir como prova de conceito (*beta*) de um projeto maior, validando mecânicas antes de uma expansão futura.
-- Aproximar o desenvolvimento independente do público, através de divulgação no Instagram e planejamento de lançamento gratuito.
+- Compartilhar o processo de desenvolvimento, através de divulgação no Instagram e planejamento de lançamento da versao beta.
 
 ---
 
@@ -46,6 +49,186 @@ O projeto nasceu da popularidade crescente dos jogos indie do subgênero metroid
 | **C# (Visual Studio)** | Linguagem e editor utilizados para toda a programação |
 | **LibreSprite** | Criação de sprites, animações em pixel art e paletas de cor |
 | **Krita** | Ilustração digital — artes conceituais de personagens e cutscene |
+
+---
+
+## 🖼️ Galeria visual
+
+> 📁 **Como adicionar as imagens:** crie uma pasta chamada `assets/` na raiz do repositório, coloque os arquivos de imagem dentro dela e substitua os caminhos indicados abaixo. Ex: `assets/screenshot-floresta.png`.
+
+---
+
+### 🌄 Cenários
+
+Dois ambientes interligados, cada um com paleta de cores própria e inimigos distintos.
+
+<div align="center">
+
+| Floresta | Caverna|
+|:---:|:---:|
+| ![Cenário Floresta](<img width="1155" height="579" alt="image" src="https://github.com/user-attachments/assets/90e5daef-e1fa-4661-8304-4e8d5e8e95b4" />
+)
+<img width="1152" height="579" alt="image" src="https://github.com/user-attachments/assets/c9e21ee5-e758-48c0-886f-74d240887bb4" />
+
+| *Primeiro cenário — inspirado na paleta de Ori and the Blind Forest* | *Segundo cenário — tons escuros e atmosfera de tensão* |
+
+</div>
+
+---
+
+### 🎬 Cutscene de abertura
+
+A história do mundo é contada por uma série de ilustrações digitais criadas no Krita, narradas quadro a quadro antes do início do jogo. A sequência apresenta a **Era do Caos**, a ascensão do Primeiro Lorde, sua queda e a fragmentação do mundo em múltiplas realidades — contexto que motiva toda a jornada da protagonista.
+
+> 📁 Coloque as imagens da cutscene em `assets/cutscene/` e substitua os caminhos abaixo conforme os arquivos que você adicionar.
+
+<div align="center">
+
+![Cutscene 1](assets/cutscene/cutscene-01.png)
+*Quadro 1 — No início, o mundo estava na Era do Caos*
+
+</div>
+
+<div align="center">
+
+![Cutscene 2](assets/cutscene/cutscene-02.png)
+*Quadro 2 — As Criaturas do Caos viviam em guerra constante pela sobrevivência, até que surgiu uma luz...*
+
+</div>
+
+<div align="center">
+
+![Cutscene 3](assets/cutscene/cutscene-03.png)
+*Quadro 3 — E com essa luz, um portador*
+
+</div>
+
+<div align="center">
+
+![Cutscene 4](assets/cutscene/cutscene-04.png)
+*Quadro 4 — Que se tornou O Primeiro Lorde*
+
+</div>
+
+<!-- Adicione mais quadros seguindo o mesmo padrão:
+
+<div align="center">
+
+![Cutscene X](assets/cutscene/cutscene-0X.png)
+*Quadro X — descrição do quadro*
+
+</div>
+
+-->
+
+<br>
+
+---
+
+### 🧍 Protagonista
+
+A personagem principal é uma jovem espadachim que perdeu suas memórias e usa uma máscara como única pista do seu passado. Sprites feitos em 48×48 pixels no LibreSprite.
+
+<div align="center">
+
+| Arte conceitual | Sprite final |
+|:---:|:---:|
+| ![Arte conceitual - Protagonista](assets/concept-protagonista.png) | ![Sprite - Protagonista](assets/sprite-protagonista.png) |
+
+</div>
+
+---
+
+### 🏃 Animações da protagonista
+
+<div align="center">
+
+| Andar | Atacar (combo 3 hits) | Pular | Dash / Esquiva |
+|:---:|:---:|:---:|:---:|
+| ![Animação Andar](assets/anim-protagonista-andar.gif) | ![Animação Ataque](assets/anim-protagonista-ataque.gif) | ![Sprite Pulo](assets/anim-protagonista-pulo.png) | ![Sprite Dash](assets/anim-protagonista-dash.png) |
+
+| Tomar poção | Morte |
+|:---:|:---:|
+| ![Animação Poção](assets/anim-protagonista-pocao.gif) | ![Animação Morte](assets/anim-protagonista-morte.gif) |
+
+</div>
+
+---
+
+### 👥 Personagens secundários
+
+Encontrados ao final do jogo, após o jogador completar o mapa.
+
+<div align="center">
+
+| Personagem 01 — Líder dos exploradores | Personagem 02 — Guerreiro da raça local |
+|:---:|:---:|
+| ![Concept 01](assets/concept-personagem-01.png) | ![Concept 02](assets/concept-personagem-02.png) |
+| ![Sprite 01](assets/sprite-personagem-01.png) | ![Sprite 02](assets/sprite-personagem-02.png) |
+
+</div>
+
+---
+
+### 👾 Inimigos
+
+Os inimigos habitam a realidade alternativa do jogo. Cada um tem comportamentos distintos e compartilha a mesma característica visual nos olhos, conectando-os ao Lorde final.
+
+<div align="center">
+
+| Golem | Javali | Aranha | Lorde (chefe final) |
+|:---:|:---:|:---:|:---:|
+| ![Sprite Golem](assets/sprite-golem.png) | ![Sprite Javali](assets/sprite-javali.png) | ![Sprite Aranha](assets/sprite-aranha.png) | ![Sprite Lorde](assets/sprite-lorde.png) |
+| Patrulha e levanta ao detectar o jogador | Corre em direção ao jogador quando próximo | Ataca a curta distância | Chefe final, encontrado ao completar o mapa |
+
+</div>
+
+#### Animações dos inimigos
+
+<div align="center">
+
+| Golem — levantar | Golem — andar | Golem — atacar | Golem — morte |
+|:---:|:---:|:---:|:---:|
+| ![](assets/anim-golem-levantar.gif) | ![](assets/anim-golem-andar.gif) | ![](assets/anim-golem-ataque.png) | ![](assets/anim-golem-morte.gif) |
+
+| Javali — andar | Javali — correr | Javali — morte |
+|:---:|:---:|:---:|
+| ![](assets/anim-javali-andar.gif) | ![](assets/anim-javali-correr.gif) | ![](assets/anim-javali-morte.gif) |
+
+| Aranha — andar | Aranha — atacar | Aranha — morte |
+|:---:|:---:|:---:|
+| ![](assets/anim-aranha-andar.gif) | ![](assets/anim-aranha-ataque.png) | ![](assets/anim-aranha-morte.gif) |
+
+</div>
+
+---
+
+### 🎒 Itens e equipamentos
+
+<div align="center">
+
+<img width="1236" height="679" alt="image" src="https://github.com/user-attachments/assets/b7218025-1bd8-4ccf-a07e-be90e16cea25" />
+------------------------
+<img width="1249" height="698" alt="image" src="https://github.com/user-attachments/assets/205ab510-c2d4-4fae-996c-fa8748068fd6" />
+
+
+</div>
+
+---
+
+### 🖥️ Interface (HUD e menus)
+
+<div align="center">
+
+| HUD em jogo | Inventário — Armas | Inventário — Itens |
+|:---:|:---:|:---:|
+| ![HUD](assets/ui-hud.png) | ![Inventário Armas](assets/ui-inventario-armas.png) | ![Inventário Itens](assets/ui-inventario-itens.png) |
+
+| Inventário — Acessórios | Menu de atributos | Mapa (completo) |
+|:---:|:---:|:---:|
+| ![Inventário Acessórios](assets/ui-inventario-acessorios.png) | ![Menu Atributos](assets/ui-atributos.png) | ![Mapa Final](assets/ui-mapa-final.png) |
+
+</div>
 
 ---
 
@@ -120,7 +303,7 @@ A divulgação foi feita via Instagram (**@celestiaestudio_**), apresentando ao 
 
 ## 👥 Equipe
 
-| Nome | 
+| Nome |
 |---|
 | Erick Ueda Cavalcante |
 | Guilherme Carvalho Venancio |
@@ -130,16 +313,16 @@ A divulgação foi feita via Instagram (**@celestiaestudio_**), apresentando ao 
 | Marcelo Alexandre Oliveira Fernandes |
 | Natan Cardoso De Oliveira |
 
-**Instituição:** ETEC Parque da Juventude — Centro Estadual de Educação Tecnológica Paula Souza
-**Curso:** Ensino Médio com Habilitação Profissional em Programação de Jogos Digitais
+**Instituição:** ETEC Parque da Juventude — Centro Estadual de Educação Tecnológica Paula Souza  
+**Curso:** Ensino Médio com Habilitação Profissional em Programação de Jogos Digitais  
 **Ano:** 2024
 
 ---
 
 ## 📚 Referências citadas no relatório técnico
 
-- BLASPHEMOUS. The Game Kitchen, 2019.
-- DARK Souls. FromSoftware, 2011.
+- BLASPHEMOUS. Espanha: The Game Kitchen, 2019.
+- DARK Souls. Japão: FromSoftware, 2011.
 - ORI and the Blind Forest. Moon Studios, 2015.
 - Tutoriais e cursos sobre Unity, pixel art e animação de sprites (lista completa disponível no relatório técnico em PDF).
 
