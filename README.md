@@ -57,16 +57,17 @@ O projeto nasceu da popularidade crescente dos jogos indie do subgênero metroid
 Dois ambientes interligados, cada um com paleta de cores própria e inimigos distintos. O jogador começa na floresta, explora a caverna e retorna ao ponto inicial para completar o mapa.
 
 ---
-🌲 Floresta
+### 🌲 Floresta
 
 Primeiro cenário do jogo. Tons de verde com iluminação suave, inspirada na paleta de Ori and the Blind Forest. Habitada por golens e javalis.
 
 <div align="center">
-<img width="700" height="579" alt="image" src="https://github.com/user-attachments/assets/eb028cf0-c6c4-4099-8cd9-21b292435af8" />
+<img width="700"  alt="image" src="https://github.com/user-attachments/assets/eb028cf0-c6c4-4099-8cd9-21b292435af8" />
 
 </div>
 <br>
-🪨 Caverna
+
+### 🪨 Caverna
 
 Segundo cenário, acessado através de uma árvore gigantesca na floresta. Atmosfera escura com tons de cinza e pedra. Habitada por aranhas e golens.
 
@@ -76,38 +77,38 @@ Segundo cenário, acessado através de uma árvore gigantesca na floresta. Atmos
 
 ---
 
-### 🎬 Cutscene de abertura
+## 🎬 Cutscene de abertura
 
-A história do mundo é contada por uma série de ilustrações digitais criadas no Krita, narradas quadro a quadro antes do início do jogo. A sequência apresenta a **Era do Caos**, a ascensão do Primeiro Lorde, sua queda e a fragmentação do mundo em múltiplas realidades — contexto que motiva toda a jornada da protagonista.
+A história do mundo é contada por uma série de ilustrações digitais criadas no Krita, com legendas quadro a quadro antes do início do jogo. A sequência apresenta a **Armagedom**, a ascensão do Primeiro Lorde, sua queda e a fragmentação do mundo em múltiplas realidades, contexto esse que motiva toda a jornada da protagonista.
 
 <br>
 <div align="center">
-<img width="620" alt="cutscene-quadro1" src="https://github.com/user-attachments/assets/723b9161-bfae-426a-a566-3b9a8aead404" />
+<img width="700" alt="cutscene-quadro1" src="https://github.com/user-attachments/assets/723b9161-bfae-426a-a566-3b9a8aead404" />
 </div>
 <!-- Quadro 1 — descreva aqui o que este quadro representa na história -->
 <br>
 <div align="center">
-<img width="620" alt="cutscene-quadro4" src="https://github.com/user-attachments/assets/019f868f-99b9-4885-85b8-d1386f92fb53" />
+<img width="700" alt="cutscene-quadro4" src="https://github.com/user-attachments/assets/019f868f-99b9-4885-85b8-d1386f92fb53" />
 </div>
 <!-- Quadro 4 — descreva aqui o que este quadro representa na história -->
 <br>
 <div align="center">
-<img width="620" alt="cutscene-quadro9" src="https://github.com/user-attachments/assets/b5fc14c0-7721-4a64-91ec-1c9c2168a229" />
+<img width="700" alt="cutscene-quadro9" src="https://github.com/user-attachments/assets/b5fc14c0-7721-4a64-91ec-1c9c2168a229" />
 </div>
 <!-- Quadro 9 — descreva aqui o que este quadro representa na história -->
 <br>
 <div align="center">
-<img width="620" alt="cutscene-quadro11" src="https://github.com/user-attachments/assets/6dbb6759-06a6-40de-8a54-eaf251d75d3c" />
+<img width="700" alt="cutscene-quadro11" src="https://github.com/user-attachments/assets/6dbb6759-06a6-40de-8a54-eaf251d75d3c" />
 </div>
 <!-- Quadro 11 — descreva aqui o que este quadro representa na história -->
 <br>
 <div align="center">
-<img width="620" alt="cutscene-quadro15" src="https://github.com/user-attachments/assets/be33c88d-e845-4196-9be0-0ca30340b8af" />
+<img width="700" alt="cutscene-quadro15" src="https://github.com/user-attachments/assets/be33c88d-e845-4196-9be0-0ca30340b8af" />
 </div>
 <!-- Quadro 15 — descreva aqui o que este quadro representa na história -->
 <br>
 <div align="center">
-<img width="620" alt="cutscene-quadro21" src="https://github.com/user-attachments/assets/d3ae59ec-5f76-4412-ace2-413cad2d9b09" />
+<img width="700" alt="cutscene-quadro21" src="https://github.com/user-attachments/assets/d3ae59ec-5f76-4412-ace2-413cad2d9b09" />
 </div>
 <!-- Quadro 21 — descreva aqui o que este quadro representa na história -->
 <br>
@@ -165,53 +166,26 @@ Frames de animação: corrida, combo de ataque e animação de tomar poção.
 
 ---
 
-### 👾 Inimigos
+## 👾 Inimigos
 
 Os inimigos habitam a realidade alternativa do jogo. Cada um tem comportamentos distintos e compartilha a mesma característica visual nos olhos, conectando-os ao Lorde final.
 
-<div align="center">
-
-| Golem | Javali | Aranha | Lorde (chefe final) |
-|:---:|:---:|:---:|:---:|
-| ![Sprite Golem](<img width="400"  src="https://github.com/user-attachments/assets/1f5a6c1a-cc52-476a-ba51-c431d3ab5355" />)
-| ![Sprite Javali](<img width="400" alt="image" src="https://github.com/user-attachments/assets/9aa46a36-7043-4175-9ff1-3b0807f91d70" />
-) | ![Sprite Aranha](<img width="400"  alt="image" src="https://github.com/user-attachments/assets/73ac51f5-cb9b-4b3d-a0c1-0a3a404d6957" />
-) | ![Sprite Lorde](<img width="400" alt="image" src="https://github.com/user-attachments/assets/0c40d3f6-34eb-4d85-ac64-97ec4ef6d7cf" />
-) |
-| Patrulha e levanta ao detectar o jogador | Corre em direção ao jogador quando próximo | Ataca a curta distância | Chefe final, encontrado ao completar o mapa |
-
-</div>
-
-#### Animações dos inimigos
+---
 
 <div align="center">
-
-| Golem — levantar | Golem — andar | Golem — atacar | Golem — morte |
-|:---:|:---:|:---:|:---:|
-| ![](assets/anim-golem-levantar.gif) | ![](assets/anim-golem-andar.gif) | ![](assets/anim-golem-ataque.png) | ![](assets/anim-golem-morte.gif) |
-
-| Javali — andar | Javali — correr | Javali — morte |
-|:---:|:---:|:---:|
-| ![](assets/anim-javali-andar.gif) | ![](assets/anim-javali-correr.gif) | ![](assets/anim-javali-morte.gif) |
-
-| Aranha — andar | Aranha — atacar | Aranha — morte |
-|:---:|:---:|:---:|
-| ![](assets/anim-aranha-andar.gif) | ![](assets/anim-aranha-ataque.png) | ![](assets/anim-aranha-morte.gif) |
-
+<img width="160" alt="GOLEM" src="https://github.com/user-attachments/assets/9ff711ae-6184-4096-9e49-2f287f74d956" /><img width="160" alt="JAVALI" src="https://github.com/user-attachments/assets/9c18fe2d-e821-4c72-a678-6af7d47c20b5" />
+<img width="160"  alt="ARANHA" src="https://github.com/user-attachments/assets/1992ee90-1a19-419b-91c1-ee5458e2c199" /><img width="160" alt="LORDE" src="https://github.com/user-attachments/assets/620b314b-7ee9-4aff-b0f2-cbae0204af73" />
+GolemJavaliAranhaLorde<!-- descrição --><!-- descrição --><!-- descrição --><!-- descrição -->
 </div>
 
 ---
 
-### 🎒 Itens e equipamentos
+## 🎒 Itens e equipamentos
 
 <div align="center">
-
-<img width="1236" height="679" alt="image" src="https://github.com/user-attachments/assets/b7218025-1bd8-4ccf-a07e-be90e16cea25" />
-------------------------
-<img width="1249" height="698" alt="image" src="https://github.com/user-attachments/assets/205ab510-c2d4-4fae-996c-fa8748068fd6" />
-
-
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/b7218025-1bd8-4ccf-a07e-be90e16cea25" />
 </div>
+Alguns dos itens disponiveis no inicio do jogo, cada um com seus respectivos efeitos e utilidades.
 
 ---
 
