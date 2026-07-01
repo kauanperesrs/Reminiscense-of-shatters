@@ -52,26 +52,26 @@ O projeto nasceu da popularidade crescente dos jogos indie do subgênero metroid
 
 ---
 
-## 🖼️ Galeria visual
+## 🌄 Cenários
 
-> 📁 **Como adicionar as imagens:** crie uma pasta chamada `assets/` na raiz do repositório, coloque os arquivos de imagem dentro dela e substitua os caminhos indicados abaixo. Ex: `assets/screenshot-floresta.png`.
+Dois ambientes interligados, cada um com paleta de cores própria e inimigos distintos. O jogador começa na floresta, explora a caverna e retorna ao ponto inicial para completar o mapa.
 
 ---
+🌲 Floresta
 
-### 🌄 Cenários
-
-Dois ambientes interligados, cada um com paleta de cores própria e inimigos distintos.
+Primeiro cenário do jogo. Tons de verde com iluminação suave, inspirada na paleta de Ori and the Blind Forest. Habitada por golens e javalis.
 
 <div align="center">
+<img width="700" height="579" alt="image" src="https://github.com/user-attachments/assets/eb028cf0-c6c4-4099-8cd9-21b292435af8" />
 
-| Floresta | Caverna|
-|:---:|:---:|
-| ![Cenário Floresta](<img width="1155" height="579" alt="image" src="https://github.com/user-attachments/assets/90e5daef-e1fa-4661-8304-4e8d5e8e95b4" />
-)
-<img width="1152" height="579" alt="image" src="https://github.com/user-attachments/assets/c9e21ee5-e758-48c0-886f-74d240887bb4" />
+</div>
+<br>
+🪨 Caverna
 
-| *Primeiro cenário — inspirado na paleta de Ori and the Blind Forest* | *Segundo cenário — tons escuros e atmosfera de tensão* |
+Segundo cenário, acessado através de uma árvore gigantesca na floresta. Atmosfera escura com tons de cinza e pedra. Habitada por aranhas e golens.
 
+<div align="center">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/73fb612a-bd5a-4bb3-b743-4044eb0c2bf4" />
 </div>
 
 ---
@@ -80,35 +80,37 @@ Dois ambientes interligados, cada um com paleta de cores própria e inimigos dis
 
 A história do mundo é contada por uma série de ilustrações digitais criadas no Krita, narradas quadro a quadro antes do início do jogo. A sequência apresenta a **Era do Caos**, a ascensão do Primeiro Lorde, sua queda e a fragmentação do mundo em múltiplas realidades — contexto que motiva toda a jornada da protagonista.
 
-> 📁 Coloque as imagens da cutscene em `assets/cutscene/` e substitua os caminhos abaixo conforme os arquivos que você adicionar.
-
+<br>
 <div align="center">
-
-![Cutscene 1](assets/cutscene/cutscene-01.png)
-*Quadro 1 — No início, o mundo estava na Era do Caos*
-
+<img width="620" alt="cutscene-quadro1" src="https://github.com/user-attachments/assets/723b9161-bfae-426a-a566-3b9a8aead404" />
 </div>
-
+<!-- Quadro 1 — descreva aqui o que este quadro representa na história -->
+<br>
 <div align="center">
-
-![Cutscene 2](assets/cutscene/cutscene-02.png)
-*Quadro 2 — As Criaturas do Caos viviam em guerra constante pela sobrevivência, até que surgiu uma luz...*
-
+<img width="620" alt="cutscene-quadro4" src="https://github.com/user-attachments/assets/019f868f-99b9-4885-85b8-d1386f92fb53" />
 </div>
-
+<!-- Quadro 4 — descreva aqui o que este quadro representa na história -->
+<br>
 <div align="center">
-
-![Cutscene 3](assets/cutscene/cutscene-03.png)
-*Quadro 3 — E com essa luz, um portador*
-
+<img width="620" alt="cutscene-quadro9" src="https://github.com/user-attachments/assets/b5fc14c0-7721-4a64-91ec-1c9c2168a229" />
 </div>
-
+<!-- Quadro 9 — descreva aqui o que este quadro representa na história -->
+<br>
 <div align="center">
-
-![Cutscene 4](assets/cutscene/cutscene-04.png)
-*Quadro 4 — Que se tornou O Primeiro Lorde*
-
+<img width="620" alt="cutscene-quadro11" src="https://github.com/user-attachments/assets/6dbb6759-06a6-40de-8a54-eaf251d75d3c" />
 </div>
+<!-- Quadro 11 — descreva aqui o que este quadro representa na história -->
+<br>
+<div align="center">
+<img width="620" alt="cutscene-quadro15" src="https://github.com/user-attachments/assets/be33c88d-e845-4196-9be0-0ca30340b8af" />
+</div>
+<!-- Quadro 15 — descreva aqui o que este quadro representa na história -->
+<br>
+<div align="center">
+<img width="620" alt="cutscene-quadro21" src="https://github.com/user-attachments/assets/d3ae59ec-5f76-4412-ace2-413cad2d9b09" />
+</div>
+<!-- Quadro 21 — descreva aqui o que este quadro representa na história -->
+<br>
 
 <!-- Adicione mais quadros seguindo o mesmo padrão:
 
@@ -125,33 +127,31 @@ A história do mundo é contada por uma série de ilustrações digitais criadas
 
 ---
 
-### 🧍 Protagonista
+## 🧍 Personagens
 
-A personagem principal é uma jovem espadachim que perdeu suas memórias e usa uma máscara como única pista do seu passado. Sprites feitos em 48×48 pixels no LibreSprite.
-
-<div align="center">
-
-| Arte conceitual | Sprite final |
-|:---:|:---:|
-| ![Arte conceitual - Protagonista](assets/concept-protagonista.png) | ![Sprite - Protagonista](assets/sprite-protagonista.png) |
-
-</div>
+Os personagens foram desenhados no Krita (artes conceituais) e depois recriados em pixel art no LibreSprite (48×48 pixels). 
 
 ---
 
-### 🏃 Animações da protagonista
+### Artes conceituais
 
 <div align="center">
-
-| Andar | Atacar (combo 3 hits) | Pular | Dash / Esquiva |
-|:---:|:---:|:---:|:---:|
-| ![Animação Andar](assets/anim-protagonista-andar.gif) | ![Animação Ataque](assets/anim-protagonista-ataque.gif) | ![Sprite Pulo](assets/anim-protagonista-pulo.png) | ![Sprite Dash](assets/anim-protagonista-dash.png) |
-
-| Tomar poção | Morte |
-|:---:|:---:|
-| ![Animação Poção](assets/anim-protagonista-pocao.gif) | ![Animação Morte](assets/anim-protagonista-morte.gif) |
+<img width="700" alt="Protonista-01-02" src="https://github.com/user-attachments/assets/6fd2239a-74a9-4b25-b064-575df471c622" />
 
 </div>
+Da esquerda para a direita: Personagem 02 (Explorador de outra dimensão), Personagem 01 (líder dos exploradores) e a Protagonista (jovem espadachim sem memórias).
+
+<br>
+
+### Pixel art
+
+<div align="center">
+<img width="700" alt="pixel-art" src="https://github.com/user-attachments/assets/dfa33d11-c5c0-410e-b329-abfc22f85a63" />
+
+</div>
+Sprites finais com paleta de cores em hexadecimal. Da esquerda para a direita: Personagem 01, Protagonista e Personagem 02.
+
+<br>
 
 ---
 
