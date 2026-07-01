@@ -149,24 +149,19 @@ Da esquerda para a direita: Personagem 02 (Explorador de outra dimensão), Perso
 <img width="700" alt="pixel-art" src="https://github.com/user-attachments/assets/dfa33d11-c5c0-410e-b329-abfc22f85a63" />
 
 </div>
-Sprites finais com paleta de cores em hexadecimal. Da esquerda para a direita: Personagem 01, Protagonista e Personagem 02.
+Sprites finais com paleta de cores. Da esquerda para a direita: Personagem 01, Protagonista e Personagem 02.
 
 <br>
 
 ---
 
-### 👥 Personagens secundários
-
-Encontrados ao final do jogo, após o jogador completar o mapa.
+### Animações da protagonista
 
 <div align="center">
-
-| Personagem 01 — Líder dos exploradores | Personagem 02 — Guerreiro da raça local |
-|:---:|:---:|
-| ![Concept 01](assets/concept-personagem-01.png) | ![Concept 02](assets/concept-personagem-02.png) |
-| ![Sprite 01](assets/sprite-personagem-01.png) | ![Sprite 02](assets/sprite-personagem-02.png) |
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/e263af96-d908-461c-9a32-6d5b5374a0bb" />
 
 </div>
+Frames de animação: corrida, combo de ataque e animação de tomar poção.
 
 ---
 
@@ -178,7 +173,11 @@ Os inimigos habitam a realidade alternativa do jogo. Cada um tem comportamentos 
 
 | Golem | Javali | Aranha | Lorde (chefe final) |
 |:---:|:---:|:---:|:---:|
-| ![Sprite Golem](assets/sprite-golem.png) | ![Sprite Javali](assets/sprite-javali.png) | ![Sprite Aranha](assets/sprite-aranha.png) | ![Sprite Lorde](assets/sprite-lorde.png) |
+| ![Sprite Golem](<img width="400"  src="https://github.com/user-attachments/assets/1f5a6c1a-cc52-476a-ba51-c431d3ab5355" />)
+| ![Sprite Javali](<img width="400" alt="image" src="https://github.com/user-attachments/assets/9aa46a36-7043-4175-9ff1-3b0807f91d70" />
+) | ![Sprite Aranha](<img width="400"  alt="image" src="https://github.com/user-attachments/assets/73ac51f5-cb9b-4b3d-a0c1-0a3a404d6957" />
+) | ![Sprite Lorde](<img width="400" alt="image" src="https://github.com/user-attachments/assets/0c40d3f6-34eb-4d85-ac64-97ec4ef6d7cf" />
+) |
 | Patrulha e levanta ao detectar o jogador | Corre em direção ao jogador quando próximo | Ataca a curta distância | Chefe final, encontrado ao completar o mapa |
 
 </div>
