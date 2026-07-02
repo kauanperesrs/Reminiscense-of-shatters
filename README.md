@@ -8,7 +8,7 @@
 
 # Reminiscence of Shatters
 
-### Um metroidvania 2D em pixel art sobre memória, identidade e outras realidades
+### Um metroidvania 2D em pixel art sobre memória, identidade e realidades alternativas
 
 [![Unity](https://img.shields.io/badge/Engine-Unity-000000?style=flat-square&logo=unity)](https://unity.com/)
 [![C#](https://img.shields.io/badge/Language-C%23-239120?style=flat-square&logo=c-sharp)](https://learn.microsoft.com/dotnet/csharp/)
@@ -79,7 +79,7 @@ Segundo cenário, acessado através de uma árvore gigantesca na floresta. Atmos
 
 ## 🎬 Cutscene de abertura
 
-A história do mundo é contada por uma série de ilustrações digitais criadas no Krita, com legendas quadro a quadro antes do início do jogo. A sequência apresenta a **Armagedom**, a ascensão do Primeiro Lorde, sua queda e a fragmentação do mundo em múltiplas realidades, contexto esse que motiva toda a jornada da protagonista.
+A história do mundo é contada por uma série de ilustrações digitais criadas no Krita, com legendas quadro a quadro antes do início do jogo. A sequência de quadros abaixo demonstra de maneira resumida a realidade "**Armagedom**", a ascensão do Primeiro Lorde, sua queda e a fragmentação do mundo em múltiplas realidades, contexto esse que esta diretamente relacionado com o mundo em que a protagonista vive, e as motivaçoes de sua jornada.
 
 <br>
 <div align="center">
@@ -117,9 +117,8 @@ A história do mundo é contada por uma série de ilustrações digitais criadas
 
 ## 🧍 Personagens
 
-Os personagens foram desenhados no Krita (artes conceituais) e depois recriados em pixel art no LibreSprite (48×48 pixels). 
+Os personagens foram desenhados no Krita (artes conceituais) e depois recriados em pixel art no LibreSprite. 
 
----
 
 ### Artes conceituais
 
@@ -137,8 +136,7 @@ Da esquerda para a direita: Personagem 02 (Explorador de outra dimensão), Perso
 <img width="700" alt="pixel-art" src="https://github.com/user-attachments/assets/dfa33d11-c5c0-410e-b329-abfc22f85a63" />
 
 </div>
-Sprites finais com paleta de cores. Da esquerda para a direita: Personagem 01, Protagonista e Personagem 02.
-
+Sprites finais dos personagens, criados em um formato de (48×48 pixels), com suas respectivas paletas de cores
 <br>
 
 ### Animações da protagonista
@@ -147,17 +145,19 @@ Sprites finais com paleta de cores. Da esquerda para a direita: Personagem 01, P
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/e263af96-d908-461c-9a32-6d5b5374a0bb" />
 
 </div>
-Frames de animação: corrida, combo de ataque e animação de tomar poção.
+Parte dos frames de animação de: corrida, combo de ataque e animação de tomar poção.
+Mais detalhes e animações no relatório técnico.
 
 ---
 
 ### 👾 Inimigos
 
-Os inimigos habitam a realidade alternativa do jogo. Cada um tem comportamentos distintos — mas todos compartilham a mesma marca nos olhos, um traço visual que os conecta ao Lorde, chefe final da dimensão.
+Os inimigos habitam a realidade alternativa do jogo. Cada um possuindo um comportamentos distinto, mas compartilham a mesma marca nos olhos, um traço visual que os conecta ao Lorde, chefe final da Realidade.
 
 <div align="center">
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/ffa63da5-d8d2-46c0-a285-8789d14eb883" />
 
+Ao serem derrotados, transformam-se em uma espécie de alma que fica flutuando sobre o solo. Elas são chamadas de Remanescentes de Almas e podem ser consumidas no checkpoint, permitindo que o jogador suba de nível.
 </div>
 
 ### 🎒 Itens e equipamentos
@@ -172,12 +172,11 @@ Alguns dos itens disponiveis no inicio do jogo, cada um com seus respectivos efe
 
 ## 🎮 Gameplay
 
-O jogo combina exploração não-linear, combate direto e progressão de personagem em um loop simples e satisfatório. Abaixo, alguns recortes do jogo em funcionamento.
+O jogo combina exploração não-linear, combate direto e progressão de personagem por meio de atributos e itens. Abaixo, alguns recortes do jogo em funcionamento.
 
----
 ### Exploração e combate
 
-A protagonista percorre dois cenários interligados — floresta e caverna — enfrentando inimigos distribuídos pelo mapa. O HUD exibe vida, mana, poções disponíveis e fragmentos acumulados em tempo real. O mapa se revela conforme novas áreas são descobertas, no estilo característico do gênero.
+A protagonista percorre dois cenários principais, a área da floresta e a caverna, enfrentando inimigos distribuídos pelo mapa. O HUD exibe a barra de vida, mana, poções disponíveis e os remanescentes de almas acumulados em tempo real. O mapa se revela conforme novas áreas são descobertas, no estilo característico do gênero.
 
 <div align="center">
 <img width="680" alt="Interface" src="https://github.com/user-attachments/assets/9672f313-cab2-4340-b07c-d602bee47a6e" />
@@ -186,7 +185,7 @@ A protagonista percorre dois cenários interligados — floresta e caverna — e
 
 ### Inventário
 
-Ao abrir o inventário, o jogador navega entre três categorias — Armas, Itens e Acessórios — e pode equipar ou consumir o que encontrou durante a exploração. Trocar de arma altera o ataque base exibido na interface, tornando a progressão imediatamente perceptível.
+Ao abrir o inventário, o jogador navega entre três categorias: Armas, Itens e Acessórios, podendo equipar ou consumir o que encontrou durante a exploração.
 
 <div align="center">
 <img width="680" alt="Inventario" src="https://github.com/user-attachments/assets/99d4d495-d9ca-4ac5-85d7-db4effb2326c" />
@@ -196,11 +195,13 @@ Ao abrir o inventário, o jogador navega entre três categorias — Armas, Itens
 
 ### Sistema de atributos
 
-Nos checkpoints, o jogador investe os Remanescente de almas ( Moeda coletada ao derrotar inimigos ) para evoluir um dos cinco atributos: Vigor (vida), Vitalidade (defesa física), Resistência (danos especiais), Força (ataque) e Mana (magia). Ao Morrer, suas almas armazenadas ficam no local da morte e, caso ocorra outra morte sem recupera-las, elas desaparecem completamente.
+Nos checkpoints, o jogador investe os Remanescente de almas para evoluir um dos cinco atributos: Vigor (vida), Vitalidade (defesa física), Resistência (danos especiais), Força (ataque) e Mana (magia). Ao Morrer, suas almas armazenadas ficam no local da morte e, caso ocorra outra morte sem recupera-las, elas desaparecem completamente.
 
 <div align="center">
 <img width="680" alt="Atributos" alt="image" src="https://github.com/user-attachments/assets/412f0c21-a6d4-4da0-a6a9-81e473f66dea" />
 </div>
+
+---
 
 ## 🎮 Controles (PC)
 
@@ -232,10 +233,16 @@ A narrativa é introduzida por uma cutscene ilustrada (Krita) que estabelece a l
 
 ## 📣 Marketing
 
-A divulgação foi feita via Instagram (**@celestiaestudio_**), apresentando ao público ícones, artes conceituais e bastidores do desenvolvimento (cutscene, sprites, animações). O plano de lançamento previa disponibilizar a versão beta gratuitamente na **Steam**, coletando feedback da comunidade antes de uma versão final.
+A divulgação foi feita via Instagram (**@celestiaestudio_**), apresentando ao público ícones, artes conceituais e bastidores do desenvolvimento (cutscene, sprites, animações). 
+
+<div align="center">
+
+<img width="680" alt="Post-instagram" src="https://github.com/user-attachments/assets/fb993c01-eb05-4ca2-a775-939db28bf1fa" />
+
+</div>
 
 > [!NOTE]
-> O instagram informado nao esta mais disponivel.
+> O perfil do Instagram utilizado durante o desenvolvimento não está mais disponível.
 
 ---
 
@@ -259,15 +266,14 @@ A divulgação foi feita via Instagram (**@celestiaestudio_**), apresentando ao 
 
 ## 📚 Referências citadas no relatório técnico
 
-- BLASPHEMOUS. Espanha: The Game Kitchen, 2019.
-- DARK Souls. Japão: FromSoftware, 2011.
+- BLASPHEMOUS. The Game Kitchen, 2019.
+- DARK Souls. FromSoftware, 2011.
 - ORI and the Blind Forest. Moon Studios, 2015.
 - Tutoriais e cursos sobre Unity, pixel art e animação de sprites (lista completa disponível no relatório técnico em PDF).
 
 ---
 
+## © Direitos autorais
 
-> [!IMPORTANT]
-> Este repositório documenta o desenvolvimento acadêmico do jogo, com foco em conceitos de game design, programação orientada a objetos e produção de arte 2D.
-> Todos os direitos são reservados à equipe de desenvolvimento.
-
+>[!IMPORTANT]
+Todos os direitos sobre Reminiscence of Shatters, incluindo código-fonte, arte, narrativa, design de personagens e demais ativos, são reservados à equipe de desenvolvimento.
