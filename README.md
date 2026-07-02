@@ -236,8 +236,9 @@ A narrativa é introduzida por uma cutscene ilustrada (Krita) que estabelece a l
 A divulgação foi feita via Instagram (**@celestiaestudio_**), apresentando ao público ícones, artes conceituais e bastidores do desenvolvimento (cutscene, sprites, animações). 
 
 <div align="center">
+  
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/b6f528bb-91cd-4362-9caf-f5c5403dd0ae" />
 
-<img width="680" alt="Post-instagram" src="https://github.com/user-attachments/assets/fb993c01-eb05-4ca2-a775-939db28bf1fa" />
 
 </div>
 
