@@ -219,18 +219,6 @@ Nos checkpoints, o jogador investe os Remanescente de almas para evoluir um dos 
 
 ---
 
-## 🎨 Referências e direção de arte
-
-O projeto possui três fontes principais, cada uma influenciando um aspecto distinto:
-
-- **Blasphemous** (The Game Kitchen, 2019) — referência de jogabilidade e do sistema de mapa progressivo
-- **Dark Souls** (FromSoftware, 2011) — referência temática e do sistema de atributos
-- **Ori and the Blind Forest** (Moon Studios, 2015) — referência de ambientação e paleta de cores do cenário de floresta
-
-A narrativa é introduzida por uma cutscene ilustrada (Krita) que estabelece a lore do universo: uma "Era do Caos", a ascensão e queda do "Primeiro Lorde", e a fragmentação da realidade em múltiplos mundos — cada um com seu próprio Lorde e criaturas únicas.
-
----
-
 ## 📣 Marketing
 
 A divulgação foi feita via Instagram (**@celestiaestudio_**), apresentando ao público ícones, artes conceituais e bastidores do desenvolvimento (cutscene, sprites, animações). 
@@ -267,9 +255,9 @@ A divulgação foi feita via Instagram (**@celestiaestudio_**), apresentando ao 
 
 ## 📚 Referências citadas no relatório técnico
 
-- BLASPHEMOUS. The Game Kitchen, 2019.
-- DARK Souls. FromSoftware, 2011.
-- ORI and the Blind Forest. Moon Studios, 2015.
+- **Blasphemous** (The Game Kitchen, 2019) — referência de jogabilidade e do sistema de mapa progressivo
+- **Dark Souls** (FromSoftware, 2011) — referência temática e do sistema de atributos
+- **Ori and the Blind Forest** (Moon Studios, 2015) — referência de ambientação e paleta de cores do cenário de floresta
 - Tutoriais e cursos sobre Unity, pixel art e animação de sprites (lista completa disponível no relatório técnico em PDF).
 
 ---
