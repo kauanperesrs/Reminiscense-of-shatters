@@ -222,13 +222,8 @@ Nos checkpoints, o jogador investe os Remanescente de almas para evoluir um dos 
 ## 📣 Marketing
 
 A divulgação foi feita via Instagram (**@celestiaestudio_**), apresentando ao público ícones, artes conceituais e bastidores do desenvolvimento (cutscene, sprites, animações). 
-
-<div align="center">
   
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/b6f528bb-91cd-4362-9caf-f5c5403dd0ae" />
-
-
-</div>
 
 > [!NOTE]
 > O perfil do Instagram utilizado durante o desenvolvimento não está mais disponível.
